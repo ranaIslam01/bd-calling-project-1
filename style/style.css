@@ -10,6 +10,9 @@
 }
 header{
   background-image: url(/images/background.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 nav{
   display: flex;
@@ -43,7 +46,7 @@ nav ul{
   padding: 15px 20px;
   color: white;
   background-color: #FF6551;
-  border-radius: 8px;
+  border-radius: 5px;
   font-weight: 700;
   border: none;
 
@@ -69,4 +72,178 @@ nav ul{
   font-size: 20px;
   color: #ffffff;
   text-align: center;
+}
+.title-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 230px;
+}
+.card{
+  height: 300px;
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+}
+.icons{
+  padding: 20px;
+  font-size: 32px;
+  border-radius: 10px;
+  background-color: #B6D7FF;
+  color: #E74040;
+  margin-bottom: 20px;
+}
+.card-title{
+  color: #252B42;
+  font-weight: 700;
+  font-size: 24px;
+}
+.line{
+  height: 3px;
+  width: 50px;
+  background-color: #E74040;
+  border-radius: 5px;
+  margin: 20px 0px;
+}
+.card-description{
+  font-size: 14px;
+  font-weight: 400;
+  color: #737373;
+}
+.card-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin: 0px 197px;
+  position:absolute;
+  top: 85%;
+  padding-bottom: 70px;
+
+}
+.card-3{
+  background-color: #FF6551;
+}
+.card-title-3{
+  color: white;
+}
+.line-3{
+  background-color: white;
+}
+.card-description-3{
+  color: white;
+}
+main{
+  margin: 0px 197px;
+}
+.course-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+  margin-bottom: 160px;
+  gap: 30px;
+}
+.image-container > img{
+  width: 100%;
+}
+.text-container{
+  margin-left: 100px;
+}
+.bold-line{
+  height: 7px;
+  width: 94px;
+  border-radius: 5px;
+  background-color: #E74040;
+}
+.course-title{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #252B42;
+  margin: 35px 0px;
+}
+.course-description{
+  font-size: 14px;
+  font-weight: 400;
+  color: #737373;
+  margin-bottom: 35px;
+}
+.course-btn{
+  color: #FF6551;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.text-container-2{
+  margin-left: 0px;
+}
+.testimonials-text{
+ padding-top: 160px;
+ margin-bottom: 100px;
+}
+.testimonials-name{
+  font-size: 14px;
+  font-weight: 700;
+  color: #FF6551;
+}
+.testimonials-title{
+  font-size: 40px;
+  font-weight: 700;
+  color: #252B42;
+  margin: 10px 0px;
+}
+.testimonials-description{
+  color: #737373;
+  font-size: 14px;
+  font-weight: 400;
+}
+.testimonials-card{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 160px;
+}
+.card-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+.card-items > img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.testimonials-card-title{
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: #737373;
+  padding: 20px;
+}
+.card-items ul{
+  display: flex;
+  list-style: none;
+  gap: 5px;
+  color: #F3CD03;
+}
+.card-items h3{
+  font-size: 16px;
+  font-weight: 700;
+  color: #252B42;
+  padding: 10px;
+}
+.development{
+  font-size: 14px;
+  font-weight: 700;
+  color: #737373;
+  margin-bottom: 20px;
 }
