@@ -2,6 +2,20 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.top{
+  font-size: 30px;
+  color: #E74040;
+  position: fixed;
+  top: 50%;
+  left: 95%;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #737373;
+  background-color: #FAFAFA;
+  cursor: pointer;
 }
 .montserrat {
   font-family: "Montserrat", sans-serif;
@@ -24,6 +38,7 @@ nav{
   font-weight: 700;
   font-size: 40px;
   color: #ECECEC;
+  cursor: pointer;
 }
 nav ul{
   display: flex;
@@ -32,6 +47,7 @@ nav ul{
   font-weight: 700;
   font-size: 14px;
   color: #ffffff;
+  cursor: pointer;
 }
 .login{
   font-weight: 700;
@@ -40,6 +56,7 @@ nav ul{
   padding: 10px 20px;
   background: transparent;
   border: none;
+  cursor: pointer;
 }
 .join-us{
   font-size: 18px;
@@ -49,7 +66,15 @@ nav ul{
   border-radius: 5px;
   font-weight: 700;
   border: none;
+  cursor: pointer;
 
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  text-decoration: underline;
 }
 .join{
   font-size: 16px;
@@ -58,6 +83,7 @@ nav ul{
   text-align: center;
   padding-top: 132px;
   padding-bottom: 40px;
+  cursor: pointer;
 }
 .header-title{
   font-weight: 700;
@@ -85,6 +111,7 @@ nav ul{
   padding: 40px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 8px;
+  cursor: pointer;
 }
 .icons{
   padding: 20px;
@@ -182,7 +209,7 @@ main{
   margin-left: 0px;
 }
 .testimonials-text{
- padding-top: 160px;
+ padding-top: 100px;
  margin-bottom: 100px;
 }
 .testimonials-name{
@@ -213,8 +240,9 @@ main{
   align-items: center;
   flex-direction: column;
   padding: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
+  cursor: pointer;
 }
 .card-items > img{
   height: 150px;
@@ -290,6 +318,8 @@ main{
   border-right: none;
   border-bottom-right-radius: 0px;
   border-top-right-radius: 0px;
+  cursor: pointer;
+  outline: 1px solid #E74040;
 }
 .input-box button{
   padding: 17px 20px;
@@ -359,4 +389,21 @@ main{
   font-size: 24px;
   color: #FF6551;
   cursor: pointer;
+}
+
+/* responsive part */
+@media (max-width: 800px){
+  .nav-links{
+    display: none;
+  }
+  .button-container{
+    display: none;
+  }
+  .card-container{
+    grid-template-columns: 1fr;
+    margin-left: 80px;
+  }
+  .testimonials-card{
+    grid-template-columns: 1fr;
+  }
 }
