@@ -9,9 +9,9 @@
   font-size: 30px;
   color: #E74040;
   position: fixed;
-  top: 50%;
+  top: 80%;
   left: 95%;
-  padding: 15px;
+  padding: 15px 20px;
   border-radius: 5px;
   border: 1px solid #737373;
   background-color: #FAFAFA;
@@ -63,11 +63,10 @@ nav ul{
   padding: 15px 20px;
   color: white;
   background-color: #FF6551;
+  border:none;
   border-radius: 5px;
   font-weight: 700;
-  border: none;
   cursor: pointer;
-
 }
 a{
   text-decoration: none;
@@ -201,9 +200,16 @@ main{
   color: #FF6551;
   font-size: 14px;
   font-weight: 700;
-  border: none;
+  border: 2px solid #FF6551;
+  border-radius: 5px;
+  padding: 10px 20px;
   background: transparent;
   cursor: pointer;
+}
+.course-btn:hover{
+  background-color: #FF6551;
+  color: white;
+  transition: 1s;
 }
 .text-container-2{
   margin-left: 0px;
