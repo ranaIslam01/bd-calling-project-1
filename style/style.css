@@ -422,3 +422,7 @@ main{
     grid-template-columns: 1fr;
   }
 }
+
+footer ul li:hover{
+  text-decoration: underline;
+}
